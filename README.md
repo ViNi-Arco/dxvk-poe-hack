@@ -19,7 +19,7 @@ Not enabled by default
 * Patch dxvk with pipeline.patch
 * Set environment variable `DXVK_ASYNC=1`
 
-### Docker instructions
+### Installation instruction
 
 * Clone the repository
 * Enter folder and copy pipeline.patch
