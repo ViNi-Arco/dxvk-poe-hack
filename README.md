@@ -23,6 +23,7 @@ Not enabled by default
 
 * Clone the repository
 * cd into it
+* patch -Np1 -i ./pipeline.patch
 * Build image with `docker build . -t image_name`
 * Run container with `docker run -it -v $(pwd)/dxvk_output:/output image_name v0.95`. Replace v0.95 with desired release.
 * Binaries will be available in dxvk_output directory. They will have root ownership. Change it to your user using `sudo chown your_user:your_user_group dxvk_output -R`
