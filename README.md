@@ -16,7 +16,6 @@ Not enabled by default
 
 ### Instructions
 
-* Patch dxvk with pipeline.patch
 * Set environment variable `DXVK_ASYNC=1`
 
 ### Installation instruction
